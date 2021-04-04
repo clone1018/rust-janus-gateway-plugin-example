@@ -1,0 +1,12 @@
+[package]
+name = "janus-example-plugin"
+version = "0.1.0"
+authors = ["Luke Strickland <luke@axxim.net>"]
+edition = "2018"
+
+[lib]
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+janus-plugin = "0.13.0"
+jansson-sys = "0.1.0"
